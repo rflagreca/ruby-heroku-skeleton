@@ -1,6 +1,9 @@
 {
   "name": "ruby_webpacker_caching_test",
   "private": true,
+  "scripts": {
+    "heroku-postbuild": "bin/webpack --mode production"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
