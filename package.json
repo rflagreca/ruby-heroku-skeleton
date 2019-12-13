@@ -1,12 +1,6 @@
 {
   "name": "ruby_webpacker_caching_test",
   "private": true,
-  "engines": {
-    "yarn": "1"
-  },
-  "scripts": {
-    "build": "bundle install && ./bin/webpack --mode production"
-  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -21,6 +15,5 @@
   "devDependencies": {
     "elm-hot-webpack-loader": "^1.1.6",
     "webpack-dev-server": "^3.9.0"
-  },
-  "cacheDirectories": ["node_modules", "elm-stuff", "./public/packs"]
+  }
 }
