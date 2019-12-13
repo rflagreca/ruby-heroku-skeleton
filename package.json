@@ -2,7 +2,6 @@
   "name": "ruby_webpacker_caching_test",
   "private": true,
   "engines": {
-    "node": "12.x",
     "yarn": "1"
   },
   "scripts": {
