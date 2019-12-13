@@ -6,7 +6,7 @@
     "yarn": "1"
   },
   "scripts": {
-    "build": "./bin/webpack --mode production"
+    "build": "bundle install && ./bin/webpack --mode production"
   },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
