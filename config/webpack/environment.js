@@ -4,5 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 environment.loaders.prepend('elm', elm);
 environment.plugins.prepend('CleanWebpackPlugin',
-                            new CleanWebpackPlugin());
+                            new CleanWebpackPlugin({
+                              verbose: true
+                            }));
 module.exports = environment
