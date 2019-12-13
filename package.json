@@ -18,5 +18,6 @@
   "devDependencies": {
     "elm-hot-webpack-loader": "^1.1.6",
     "webpack-dev-server": "^3.9.0"
-  }
+  },
+  "cacheDirectories": ["node_modules", "elm-stuff", "./public/packs"]
 }
